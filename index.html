@@ -7,17 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="titulo">Quick Notes</h1>
     
-    
-    <section class="inserir-mensagens">      
+<section class="app">
+    <div class="inserir-mensagens"> 
+        <h1 class="titulo">Quick Notes</h1>     
         <input type="text" name="" id="mensagem" placeholder="Write a note"><button onclick="adicionarMensagem()" type="">Send</button><button onclick="excluirMensagem()" type="">Delete Older Note</button>
         <h6 class="alerta"></h6>
-    </section>
+    </div>
 
-    <section id="mensagem-lista">        
+    <div id="mensagem-lista">        
         <p id="mensagem-unitaria"><i>Welcome to Quick Notes! Write up to 15 Notes!<br><br>Your pad is empty! Start filling it!</i></p>
-    </section>
+    </div>
+</section>
 
     <script src="script.js"></script>
 

@@ -3,7 +3,17 @@
     padding: 0;
 }
 
-.apagar {
-    font-size: 10px;
-    cursor: pointer;
+
+.app {
+    margin: 15%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+
+.inserir-mensagens, #mensagem-lista, #mensagem-unitaria {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 300px;
 }
